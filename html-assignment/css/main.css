@@ -1,9 +1,13 @@
+body{
+    background-color: darksalmon;
+}
+
 .site-title{
     color: darkorchid;
 }
 
 h1, nav, h2, footer{
-    background-color: yellow;
+    background-color: coral;
 }
 
 nav ul{
@@ -36,10 +40,10 @@ body{
     font-size: 18px;
 }
 
-.hobbies {
+.hobbies{
     list-style-type: square;
   }
 
-.hobbies li:nth-child(odd) {
+.hobbies li:nth-child(odd){
     background-color: darkorchid;
 }
