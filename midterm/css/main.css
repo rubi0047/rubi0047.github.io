@@ -47,5 +47,124 @@ table {
 	border-spacing: 0;
 }
 
-/* ==== My Code ==== */
+/* ==== My CSS ==== */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the entire document */
+    font-size: 14.5px;
+    background-color: #aad4cf;
+}
+
+.wrapper {
+    max-width: 800px;
+    background-color: #d4e9e7;
+    margin: 0 auto 20px;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3.31em;
+    position: absolute; /* Positions the title absolutely within the header */
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-1 {
+    width: 100%;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; /* Evenly spaces navigation links */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.24em;
+}
+
+.story {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.title {
+    font-size: 2.07em;
+}
+
+h2 {
+    font-size: 1.52em;
+    margin: 10px 0; 
+}
+
+.image-2 {
+    max-width: 200px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    height: auto; /* Maintains aspect ratio of the image */
+    float: left;
+}
+
+.wrapper-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.facts ul {
+    list-style: disc;
+    padding: 3px;
+    margin-left: 20px;
+}
+
+form {
+    padding: 20px;
+    border: 1px solid black; /* Adds border around the form */
+
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    max-width: 100%; /* Ensures the textarea doesn't exceed its container */
+    min-width: 100%;
+}
+
+form input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+form button {
+    font-size: 0.69em;
+    padding: 9px 8px;
+    background-color: #d4e9e7;
+    border: 1px solid black;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+footer {
+    text-align: right; /* Aligns footer text to the right */
+    padding: 20px;
+    margin-top: 40px;
+}
