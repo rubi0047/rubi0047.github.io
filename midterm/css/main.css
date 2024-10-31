@@ -49,6 +49,7 @@ table {
 
 /* ==== My CSS ==== */
 
+/* Global Styles */
 * {
     box-sizing: border-box;
 }
@@ -59,34 +60,40 @@ body {
     background-color: #aad4cf;
 }
 
-.wrapper {
+/* Banner Styles */
+.banner {
     max-width: 800px;
     background-color: #d4e9e7;
     margin: 0 auto 20px;
 }
 
+.banner-image {
+    width: 100%;
+    display: block;
+}
+
+/* Header Styles */
 header {
     text-align: center;
+    position: relative; /* Establishes a positioning context for absolutely positioned children */
     color: white;
 }
 
 h1 {
     font-size: 3.31em;
     position: absolute; /* Positions the title absolutely within the header */
-    top: 20%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.image-1 {
-    width: 100%;
-    display: block;
-}
-
+/* Navigation Styles */
 nav ul {
     display: flex;
     justify-content: space-around; /* Evenly spaces navigation links */
     padding: 10px;
+    padding-right: 42px;
+    padding-left: 42px;
     margin-bottom: 20px;
 }
 
@@ -97,6 +104,7 @@ nav a {
     font-size: 1.24em;
 }
 
+/* Main Content Styles */
 .story {
     border-right: 1px solid black;
     border-left: 1px solid black;
@@ -105,37 +113,41 @@ nav a {
 }
 
 .title {
-    font-size: 2.07em;
+    font-size: 1.95em;
 }
 
 h2 {
     font-size: 1.52em;
-    margin: 10px 0; 
+    margin: 12px 0;
+    padding-top: 15px; 
 }
 
-.image-2 {
+.article-image {
     max-width: 200px;
     padding-right: 10px;
-    padding-bottom: 14px;
+    padding-bottom: 22px;
     height: auto; /* Maintains aspect ratio of the image */
     float: left;
 }
 
-.wrapper-2 {
+.list {
+    font-size: 0.93em;
+}
+
+.wrapper {
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .facts ul {
     list-style: disc;
-    padding: 3px;
     margin-left: 20px;
 }
 
+/* Form Styles */
 form {
     padding: 20px;
     border: 1px solid black; /* Adds border around the form */
-
 }
 
 form input {
@@ -163,6 +175,7 @@ form button {
     cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
+/* Footer Styles */
 footer {
     text-align: right; /* Aligns footer text to the right */
     padding: 20px;
