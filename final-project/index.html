@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="wrapper-top">
+        <div class="wrapper">
             <!-- Banner, Title, and Nav Section -->
             <div class="banner">
                 <div class="image-1">
@@ -45,19 +45,20 @@
     </header> 
    
     <main>
-        <div class="wrapper-body">
-            <div class="wrapper-top">
-                <section id="about">
-                    <div>
-                        <h2>About Us</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
-                    </div>
-                </section>
+        <div class="wrapper">
+            <section id="about">
+                <div>
+                    <img src="images/about-us.jpg" alt="Image of Ping-Pong Table in Office">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
+                </div>
+            </section>
             </div>
             <section id="services"> 
                 <div>
                     <h2>Our Services</h2>
+                    <img src="images/digital.jpg" alt="Image of Person Holding Phone and Scrolling on a Laptop">
                     <h3>Digital Transformation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
                 </div>
@@ -65,6 +66,7 @@
                     <a href="#">Digital Plans &#9654;</a>
                 </div>
                 <div>
+                    <img src="images/marketing.jpg" alt="Image of a Laptop at an Angle">
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p> 
                 </div>
@@ -72,6 +74,7 @@
                     <a href="#">Marketing Plans &#9654;</a>
                 </div> 
                 <div>
+                    <img src="images/video.jpg" alt="Image of a Phone Opening Youtube">
                     <h3>Video Production</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p> 
                 </div>
@@ -79,11 +82,20 @@
                     <a href="#">Video Plans &#9654;</a>
                 </div> 
                 <div>
+                    <img src="images/web.jpg" alt="Image of a Phone on Instagram">
                     <h3>Web Development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p> 
                 </div>
                 <div class="plans">
                     <a href="#">Web Plans &#9654;</a>
+                </div>
+                <div>
+                    <img src="images/print.jpg" alt="Image of Mailboxes in a Row">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p> 
+                </div>
+                <div class="plans">
+                    <a href="#">Print Plans &#9654;</a>
                 </div>
                 <div>
                     <img src="images/vision.jpg" alt="Image of Paper Boats">
@@ -94,59 +106,59 @@
                     <a href="#">Learn More &#9654;</a>
                 </div>
             </section>
-        </div>
           
-        <!-- Contact Form Section -->
-        <section id="contact"> 
-            <h2>Contact Us</h2>
-            <h3>Send us a message</h3>
-                <form action="#"> 
-                    <div class="name">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
+            <!-- Contact Form Section -->
+            <section id="contact"> 
+                <h2>Contact Us</h2>
+                <h3>Send us a message</h3>
+                    <form action="#"> 
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
 
-                    <div class="email">
-                        <label for="email">Email</label> 
-                        <input type="email" id="email" name="email" required>
-                    </div>
+                        <div class="email">
+                            <label for="email">Email</label> 
+                            <input type="email" id="email" name="email" required>
+                        </div>
 
-                    <div class="message">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4"></textarea> 
-                    </div>
-                    <button type="submit">SEND</button>
-                </form>   
-        </section>  
-        <!-- Table Section -->
-        <section id="hours">
-            <h3>Hours of operation</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
+                        <div class="message">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea> 
+                        </div>
+                        <button type="submit">SEND</button>
+                    </form>   
+            </section>  
+            <!-- Table Section -->
+            <section id="hours">
+                <h3>Hours of operation</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Monday - Friday</td>
-                        <td>9 AM - 6 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday - Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section> 
-        <section class="location-section">
-            <h2>Location</h2>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.948844355196!2d-75.75536920000002!3d45.34984490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732313281098!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section> 
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section> 
+            <section class="location-section">
+                <h2>Location</h2>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.948844355196!2d-75.75536920000002!3d45.34984490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732313281098!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section> 
+        </div>
     </main>
     <footer>
         <p>&copy; Copyright Three Star Media, 2020</p>
