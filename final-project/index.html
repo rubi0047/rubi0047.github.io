@@ -13,43 +13,57 @@
         <div class="banner">
             <div class="image-1">
                 <img src="images/logo.png" alt="Small Image of Three Stars"> 
-             </div>
+            </div>
+            
             <div class="nav">
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            
-            <form action="/search" method="get">
-                <input type="text" name="query" placeholder="Search...">
-                <button type="submit" class="fa-solid fa-magnifying-glass"></button>
-            </form>
+            <div class="search">
+                <form action="/search" method="get">
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="submit" class="fa-solid fa-magnifying-glass" id="button-1"></button>
+                </form>
+            </div>
         </div>    
-        <div>
+        <div class="welcome">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
         </div>
+        
         <div class="connect">
             <a href="#">Connect with us &#9654;</a>
         </div>   
     </header> 
    
     <main>
-        <section>
+        <section id="about">
             <div>
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
             </div>
+        </section>
+        <section id="services">
+            <div>
+                <h2>Our Services</h2>
+                <h3>Digital Transformation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+            </div>
+            <div class="plans">
+                <a href="#">Digital Plans &#9654;</a>
+            </div> 
         </section>
           
         <!-- Contact Form Section -->
-        <section> 
+        <section id="contact"> 
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
                 <form action="#"> 
