@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rubi0047 - Final Project</title>
+    <script src="https://kit.fontawesome.com/07d9c0ef8b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header>
         <!-- Banner, Title, and Nav Section -->
-        <img src="images/logo.png" alt="Small Image of Three Stars">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <form action="/search" method="get">
-            <input type="text" name="query" placeholder="Search...">
-            <button type="submit">Search</button>
-        </form>
+        <div class="banner">
+            <div class="image-1">
+                <img src="images/logo.png" alt="Small Image of Three Stars"> 
+             </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <form action="/search" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit" class="fa-solid fa-magnifying-glass"></button>
+            </form>
+        </div>    
+        <div>
+            <h1>Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
+        </div>
+        <div class="connect">
+            <a href="#">Connect with us &#9654;</a>
+        </div>   
     </header> 
    
     <main>
+        <section>
+            <div>
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+            </div>
+        </section>
+          
         <!-- Contact Form Section -->
         <section> 
             <h2>Contact Us</h2>
@@ -83,6 +105,5 @@
     <p>&copy; Copyright Three Star Media, 2020</p>
     <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
-
 </body>
 </html>
