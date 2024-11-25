@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <!-- navigation: an unordered list of links -->
+        <!-- Banner, Title, and Nav Section -->
+        <img src="images/logo.png" alt="Small Image of Three Stars">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,56 +19,64 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
+        <form action="/search" method="get">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
     </header> 
    
     <main>
         <!-- Contact Form Section -->
         <section> 
             <h2>Contact Us</h2>
-            <h3>Send us a message</h2>
-            <form action="#"> 
-                <div class="name">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
+            <h3>Send us a message</h3>
+                <form action="#"> 
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
 
-                <div class="email">
-                    <label for="email">Email</label> 
-                    <input type="email" id="email" name="email" required>
-                </div>
+                    <div class="email">
+                        <label for="email">Email</label> 
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-                <div class="message">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4"></textarea> 
-                </div>
-                <button type="submit">SEND</button>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea> 
+                    </div>
+                    <button type="submit">SEND</button>
+                </form>   
+        </section>  
+        <!-- Table Section -->
+        <section id="hours">
+            <h3>Hours of operation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
 
-                <section id="hours">
-                    <h3>Hours of operation</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <!--Table Heading Cell-->
-                                <th>Days</th>
-                                <th>Hours</th>
-                            </tr>
-                        </thead>
-    
-                        <tbody>
-                            <tr>
-                                <!--Table Data Cell-->
-                                <td>Monday - Friday</td>
-                                <td>9 AM - 6 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday - Sunday</td>
-                                <td>Closed</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-            </form>
-        </section>
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section> 
+        <section class="location-section">
+            <h2>Location</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.948844355196!2d-75.75536920000002!3d45.34984490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732313281098!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section> 
     </main>
    
     <footer>
