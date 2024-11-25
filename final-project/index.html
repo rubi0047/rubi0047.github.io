@@ -21,11 +21,58 @@
     </header> 
    
     <main>
+        <!-- Contact Form Section -->
+        <section> 
+            <h2>Contact Us</h2>
+            <h3>Send us a message</h2>
+            <form action="#"> 
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
+                <div class="email">
+                    <label for="email">Email</label> 
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"></textarea> 
+                </div>
+                <button type="submit">SEND</button>
+
+                <section id="hours">
+                    <h3>Hours of operation</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <!--Table Heading Cell-->
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <!--Table Data Cell-->
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </form>
+        </section>
     </main>
    
     <footer>
-    <p>&copy; 2024 Algonquin College</p>
+    <p>&copy; Copyright Three Star Media, 2020</p>
+    <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 
 </body>
