@@ -8,35 +8,31 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="site-header">
+    <header>
         <div class="wrapper">
             
-            <!-- Banner, Title, and Navigation Section -->
-            <div class="header-banner">
-                
-                <!-- Logo Section -->
-                <div class="logo-container">
-                    <img class="logo" src="images/logo.png" alt="Small Image of Three Stars">
-                </div>
-    
-                <!-- Navigation Section -->
-                <nav class="nav">
-                    <ul>
-                        <li class="nav-item"><a href="index.html">Home</a></li>
-                        <li class="nav-item"><a href="#about">About Us</a></li>
-                        <li class="nav-item"><a href="#services">Services</a></li>
-                        <li class="nav-item"><a href="#team">Team</a></li>
-                        <li class="nav-item"><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-    
-                <!-- Search Section -->
-                <div class="search-container">
-                    <form action="/search" method="get" class="search-form">
-                        <input type="text" name="query" class="search-input" placeholder="Search...">
-                        <button type="submit" class="search-button" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                </div>
+            <!-- Logo Section -->
+            <div class="logo-container">
+                <img class="logo" src="images/logo.png" alt="Small Image of Three Stars">
+            </div>
+
+            <!-- Navigation Section -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Search Section -->
+            <div class="search-container">
+                <form action="/search" method="get" class="search-form">
+                    <input type="text" name="query" class="search-input" placeholder="Search...">
+                    <button type="submit" class="search-button" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
             </div>
     
             <!-- Welcome Section -->
@@ -53,7 +49,7 @@
         </div>
     </header> 
    
-    <main class="main-content">
+    <main>
         <div class="wrapper">
             <!-- About Section -->
             <section id="about" class="about-section">
@@ -120,14 +116,16 @@
                         <a href="#" class="plan-link">Print Plans &#9654;</a>
                     </div>
     
-                    <!-- Vision -->
+                <!-- Vision -->
                     <div class="vision">
-                        <img class="service-image" src="images/vision.jpg" alt="Image of Paper Boats">
-                        <h3 class="service-name">Our Vision</h3>
-                        <p class="service-description">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                    </div>
-                    <div class="learn">
-                        <a href="#" class="learn-link">Learn More &#9654;</a>
+                        <div class="service-item">
+                            <img class="service-image" src="images/vision.jpg" alt="Image of Paper Boats">
+                            <h3 class="service-name">Our Vision</h3>
+                            <p class="service-description">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                        </div>
+                        <div class="learn">
+                            <a href="#" class="learn-link">Learn More &#9654;</a>
+                        </div>
                     </div>
                 </div>
             </section>
