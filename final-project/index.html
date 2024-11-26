@@ -9,9 +9,11 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="header-wrapper">
+        <div class="wrapper">
+            
             <!-- Banner, Title, and Navigation Section -->
             <div class="header-banner">
+                
                 <!-- Logo Section -->
                 <div class="logo-container">
                     <img class="logo" src="images/logo.png" alt="Small Image of Three Stars">
@@ -19,12 +21,12 @@
     
                 <!-- Navigation Section -->
                 <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
-                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <ul>
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="#about">About Us</a></li>
+                        <li class="nav-item"><a href="#services">Services</a></li>
+                        <li class="nav-item"><a href="#team">Team</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
     
@@ -52,7 +54,7 @@
     </header> 
    
     <main class="main-content">
-        <div class="content-wrapper">
+        <div class="wrapper">
             <!-- About Section -->
             <section id="about" class="about-section">
                 <div class="about-content">
@@ -123,6 +125,7 @@
                         <img class="service-image" src="images/vision.jpg" alt="Image of Paper Boats">
                         <h3 class="service-name">Our Vision</h3>
                         <p class="service-description">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    </div>
                     <div class="learn">
                         <a href="#" class="learn-link">Learn More &#9654;</a>
                     </div>
@@ -139,7 +142,7 @@
                     <p class="team-member-bio">Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
                 </div>
                 <div class="team-member" id="bob">
-                    <img class="team-member-photo" src="images/bob.jpg" alt="Image of Bob Smiling">
+                    <img class="team-member-photo" src="images/bob.jpg" alt="Image of Bob Looking Forward">
                     <h3 class="team-member-name">Bob Rite</h3>
                     <h4 class="team-member-title">CFO and Co-owner</h4>
                     <p class="team-member-bio">Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
@@ -168,7 +171,7 @@
             </section>
     
             <!-- Hours Section -->
-            <section id="hours" class="hours-section">
+            <section class="hours-section">
                 <h3 class="hours-title">Hours of Operation</h3>
                 <table class="hours-table">
                     <thead>
@@ -191,7 +194,7 @@
             </section>
     
             <!-- Location Section -->
-            <section id="location" class="location-section">
+            <section class="location-section">
                 <h3 class="location-title">Location</h3>
                 <div class="map-container">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.948844355196!2d-75.75536920000002!3d45.34984490000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1732313281098!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -201,8 +204,10 @@
     </main>
     
     <footer>
-        <p>&copy; Copyright Three Star Media, 2020</p>
-        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        <div class="wrapper">
+            <p>&copy; Copyright Three Star Media, 2020</p>
+            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        </div>
     </footer>
 </body>
 </html>
