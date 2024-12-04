@@ -48,3 +48,139 @@ table {
 }
 
 /* ==== My CSS ==== */
+
+/* Base styles for mobile-first approach */
+
+header {
+    background-color: #1c1c1c;
+    padding: 10px 0;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo section */
+.logo-container {
+    background-color: #c1861f; /* Matches the gold background in the example */
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+}
+
+.logo {
+	position: absolute; /* Enables explicit positioning */
+    left: 0; /* Aligns the logo to the left of the container */
+	top: 1px;
+    margin: 10px; /* Adds a bit of space from the edges */
+    max-width: 80px; /* Ensures the logo retains the small size */
+}
+
+/* Navigation styles */
+.nav {
+    width: 100%;
+    text-align: center;
+    background-color: #1c1c1c;
+    padding: 20px 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: block; 
+    margin: 25px 0;
+	margin-bottom: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 18px; /* Matches the font size in the example */
+    font-weight: 400;
+    color: #c1861f; /* Matches the gold color in the example */
+	position: relative;
+}
+
+.nav a.current {
+	background-color: #c1861f;
+	color: #1c1c1c;
+	display: block;
+	padding: 20px;
+	margin-top: -60px;
+}
+
+/* Search bar */
+.search-container {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    border: 2px solid #c1861f; /* Matches the border of the search bar */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #1c1c1c; /* Matches the button background color */
+    color: #c1861f; /* Matches the button text color */
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button i {
+    font-size: 20px; /* FontAwesome icon size */
+}
+
+/* Tablet and desktop styles (media queries) */
+@media (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-container {
+        flex: 1;
+    }
+
+    .nav {
+        flex: 2;
+    }
+
+    .search-container {
+        flex: 1;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+}
