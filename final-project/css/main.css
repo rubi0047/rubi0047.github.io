@@ -130,8 +130,6 @@ header {
 .search-form {
     width: 100%;
     display: flex;
-    border: 2px solid #c1861f; /* Matches the border of the search bar */
-    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -146,8 +144,8 @@ header {
 .search-button {
     background-color: #1c1c1c; 
     color: #c1861f; 
-    border: none;
-    padding: 0 15px;
+    border: 1px solid #c1861f;
+    padding: 0 8px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -166,7 +164,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .welcome-section {
@@ -186,6 +184,7 @@ header {
 }
 
 .welcome-title {
+    position: absolute;
     font-size: 4rem; /* Larger font for the title */
     font-weight: bold; 
     color: white;
@@ -195,6 +194,7 @@ header {
 }
 
 .welcome-text {
+    position: absolute;
     font-size: 1.25rem; /* Larger font size for readability */
     line-height: 1.6; 
     max-width: 600px; 
@@ -202,11 +202,14 @@ header {
     text-align: left; 
     margin-bottom: 20px; /* Space below the title for the paragraph */
     margin-left: 30px;
+    bottom: 100px;
 }
 
 
 .connect-section {
-    margin-top: 20px; /* Spacing from the welcome text */
+    position: absolute;
+    bottom: 250px;
+    margin-left: 30px;
 }
 
 .connect-link {
@@ -215,7 +218,7 @@ header {
     color: #000; /* Black text color */
     text-decoration: none; 
     font-size: 1.5rem;
-    padding: 15px 30px;
+    padding: 20px 30px;
     transition: background-color 0.3s ease; /* Add a hover effect */
 }
 
