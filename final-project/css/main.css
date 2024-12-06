@@ -47,11 +47,24 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
 /* ==== My CSS ==== */
 
 /* Base styles for mobile-first approach */
 
 /* ---Heeader--- */
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -159,3 +172,76 @@ header {
 .search-button i {
     font-size: 20px; /* FontAwesome icon size */
 }
+
+
+
+/* <--Welcome Section--> */
+
+.welcome-wrapper {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 67px;
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome-section {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-left: -100px;
+    margin-right: -100px;
+    text-align: left;
+}
+
+.welcome-section h1 {
+    margin-top: -10px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.welcome-title, .welcome-text, .connect-button {
+    margin-left: 45px;
+    margin-right: 60px;
+}
+
+.welcome-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    
+}
+
+.connect-button {
+    background-color: #c1861f;
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 30px 20px;
+}
+
+.connect-button:hover {
+    background-color: #b7792b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
