@@ -53,6 +53,10 @@ table {
 
 /* ---Heeader--- */
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 header {
     background-color: #1c1c1c;
     padding: 10px 0;
@@ -160,15 +164,8 @@ header {
 
 /* Welcome Section */
 
-.welcome-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
 .welcome-section {
-    position: relative;
+    position: sticky;
     display: flex; 
     flex-direction: column;
     align-items: left;
@@ -184,31 +181,33 @@ header {
 }
 
 .welcome-title {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    padding-bottom: 275px;
     position: absolute;
-    font-size: 4rem; /* Larger font for the title */
+    font-size: 5rem; /* Larger font for the title */
     font-weight: bold; 
     color: white;
-    margin-bottom: 20px; 
-    margin-left: 30px;
-    text-align: left; /* Center-align the title */
+    top: 70px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .welcome-text {
     position: absolute;
-    font-size: 1.25rem; /* Larger font size for readability */
+    font-size: 1rem; /* Larger font size for readability */
     line-height: 1.6; 
     max-width: 600px; 
     color: white; /* White color to contrast with the background */
     text-align: left; 
-    margin-bottom: 20px; /* Space below the title for the paragraph */
+    margin-bottom: -170px; /* Space below the title for the paragraph */
     margin-left: 30px;
-    bottom: 100px;
 }
 
-
 .connect-section {
+    display: flex;
     position: absolute;
-    bottom: 250px;
+    bottom: 300px;
     margin-left: 30px;
 }
 
