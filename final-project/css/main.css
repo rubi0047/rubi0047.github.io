@@ -197,8 +197,7 @@ header {
 .welcome-text {
     font-size: 0.9rem;
     line-height: 1.5;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;  
 }
 
 .connect-button {
@@ -214,10 +213,29 @@ header {
     background-color: #b7792b;
 }
 
+/* <!-- About Section --> */
 
+.about-wrapper {
+    background-color: #ffe6ac;
+    padding: 15px;
+}
 
+.about-title {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
 
+.about-section {
+    background-color: #b7792b;
+}
 
+.about-section .about-content {
+    background-color: #ffe6ac;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 1.5;  
+}
 
 
 
