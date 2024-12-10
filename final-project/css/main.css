@@ -237,16 +237,34 @@ header {
     line-height: 1.5;  
 }
 
+
+
+
+
+
+
+
+
+
+
 /* <!-- Service Section --> */
 
 .service-wrapper {
     background-color: white;
-    padding: 60px 20px;
+    padding: 60px 15px;
 }
+
+/* <!-- Digital Transformation --> */
 
 .services-title {
     font-weight: bold;
     font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.service-name, .service-description {
+    text-align: left;
+    padding: 5px 10px;
 }
 
 .service-item-1 {
@@ -259,14 +277,17 @@ header {
 }
 
 .plan-link {
-    background-color: #c78c06;
-    color: black;
+    background-color: #222;
+    color: white;
     text-decoration: none;
     font-weight: lighter;
     font-size: 1.5rem;
     padding: 30px;
-    margin-left: 20px;
-    margin-right: 450px;
+    flex-direction: column;
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 90px;
 }
 
 .plan-link:hover {
