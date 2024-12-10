@@ -56,7 +56,7 @@ body {
 }
 
 header {
-    background-color: #1c1c1c;
+    background-color: #222;
     padding: 15px 0;
 }
 
@@ -70,7 +70,7 @@ header {
 
 /* Logo section */
 .logo-container {
-    background-color: #c1861f; /* Matches the gold background in the example */
+    background-color: #c78c06; /* Matches the gold background in the example */
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -91,7 +91,7 @@ header {
 .nav {
     width: 100%;
     text-align: center;
-    background-color: #1c1c1c;
+    background-color: #222;
     padding: 20px 0;
 }
 
@@ -105,14 +105,14 @@ header {
     text-decoration: none;
     font-size: 18px; /* Matches the font size in the example */
     font-weight: 400;
-    color: #c1861f; /* Matches the gold color in the example */
+    color: #c78c06; /* Matches the gold color in the example */
 	position: relative;
 	margin-bottom: -10px;
 }
 
 .nav a.current {
-	background-color: #c1861f;
-	color: #1c1c1c;
+	background-color: #c78c06;
+	color: #222;
 	display: block;
 	padding: 15px;
 	margin-top: -60px;
@@ -127,7 +127,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1c1c1c;
+    background-color: #222;
 }
 
 .search-form {
@@ -146,9 +146,9 @@ header {
 }
 
 .search-button {
-    background-color: #1c1c1c; 
-    color: #c1861f; 
-    border: 1px solid #c1861f;
+    background-color: #222; 
+    color: #c78c06; 
+    border: 1px solid #c78c06;
     padding: 0 8px;
     cursor: pointer;
     display: flex;
@@ -163,7 +163,7 @@ header {
 /* <--Welcome Section--> */
 
 .welcome-wrapper {
-    background-color: #1c1c1c;
+    background-color: #222;
     color: white;
     padding: 67px;
     background-image: url(../images/main-banner.jpg);
