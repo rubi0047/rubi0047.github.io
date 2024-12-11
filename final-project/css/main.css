@@ -49,6 +49,10 @@ table {
 
 /* ==== My CSS ==== */
 
+*{
+    box-sizing:border-box;
+}
+
 /* ---Header--- */
 body {
     font-family: "Open Sans", sans-serif;
@@ -486,6 +490,49 @@ header {
 }
 
 
+/* <!-- Contact Section --> */
 
+/* Form Styles */
 
+.contact-section {
+    clear: both;
+    width: 110%;
+}
 
+.contact-form {
+    padding: 30px;
+}
+
+.contact-form label,
+.contact-form p {
+    line-height: 2;
+}
+
+.contact-form div {
+    margin-bottom: 15px;
+}
+
+.contact-form .fname input,
+.contact-form .email input {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact-form .message textarea {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+}
+
+.form-submit {
+    background-color: #222;
+    color: #c78c06;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding: 3px 3px 3px 3px;
+}
