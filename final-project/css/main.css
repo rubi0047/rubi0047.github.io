@@ -577,14 +577,14 @@ header {
 /* Header Styles */
 .hours-table thead th {
     background-color: #ffe6ac;
-    font-weight: bold;
-    padding: 10px;
+    text-align: center;
+    padding: 15px;
     border: 1px solid #ccc;
 }
 
 /* Body Styles */
 .hours-table tbody td {
-    padding: 10px; /* Add padding for cell content */
+    padding: 15px; /* Add padding for cell content */
     border: 1px solid #ccc; /* Border between body cells */
 }
 
