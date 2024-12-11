@@ -213,12 +213,6 @@ header {
     background-color: #b7792b;
 }
 
-
-
-
-
-
-
 /* <!-- About Section --> */
 
 .about-wrapper {
@@ -242,16 +236,6 @@ header {
     gap: 15px;
     line-height: 1.5;  
 }
-
-
-
-
-
-
-
-
-
-
 
 /* <!-- Service Section --> */
 
@@ -285,6 +269,7 @@ header {
 .service-name {
     font-weight: bold;
     font-size: 2rem;
+    margin-top: 10px;
 }
 
 .plan-link {
@@ -305,12 +290,35 @@ header {
     background-color: grey;
 }
 
-
 /* <!-- Marketing --> */
 
+.service-item-2 {
+    background-color: #ffe6ac;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
 
+.plan-link-2 {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 30px;
+    flex-direction: column;
+    margin-left: 10px;
+    box-sizing: border-box;
+    width: 260px;
+    height: 93px;
+}
 
-
+.plan-link-2:hover {
+    background-color: grey;
+}
 
 
 
