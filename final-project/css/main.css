@@ -385,9 +385,49 @@ header {
 
 /* <!-- Vision Section --> */
 
+.vision-section {
+    background-color: #222;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.vision-content, .vision-name {
+    line-height: 1.5;
+}
 
+.vision-content {
+    margin-left: -65px;
+    margin-right: -60px;
+    text-align: left;
+}
 
+.vision-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
 
+.learn-button {
+    margin-top: 45px;
+    margin-left: -65px;
+    margin-right: -65px;
+    text-align: left;
+}
 
-
+.learn-link {
+    background: linear-gradient(to right, #000011, #000033);
+    border: 1px solid #c78c06;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 25px;
+    flex-direction: column;
+}
