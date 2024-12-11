@@ -49,8 +49,7 @@ table {
 
 /* ==== My CSS ==== */
 
-/* ---Heeader--- */
-
+/* ---Header--- */
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -70,7 +69,7 @@ header {
 
 /* Logo section */
 .logo-container {
-    background-color: #c78c06; /* Matches the gold background in the example */
+    background-color: #c78c06;
     width: 100%;
     padding: 80px 0;
     display: flex;
@@ -83,8 +82,8 @@ header {
 	position: absolute; /* Enables explicit positioning */
     left: 0; /* Aligns the logo to the left of the container */
 	top: 1px;
-    margin: 10px; /* Adds a bit of space from the edges */
-    max-width: 100px; /* Ensures the logo retains the small size */
+    margin: 10px;
+    max-width: 100px;
 }
 
 /* Navigation styles */
@@ -105,7 +104,7 @@ header {
     text-decoration: none;
     font-size: 18px; /* Matches the font size in the example */
     font-weight: 400;
-    color: #c78c06; /* Matches the gold color in the example */
+    color: #c78c06;
 	position: relative;
 	margin-bottom: -10px;
 }
@@ -320,7 +319,6 @@ header {
     background-color: grey;
 }
 
-
 /* <!-- Video Production --> */
 
 .service-item-3 {
@@ -360,3 +358,13 @@ header {
 }
 
 /* <!-- Print --> */
+
+.service-item-5 {
+    background-color: #ffe6ac;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 1.5;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
