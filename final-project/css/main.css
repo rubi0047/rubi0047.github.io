@@ -213,6 +213,12 @@ header {
     background-color: #b7792b;
 }
 
+
+
+
+
+
+
 /* <!-- About Section --> */
 
 .about-wrapper {
@@ -222,7 +228,7 @@ header {
 
 .about-title {
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .about-section {
@@ -258,13 +264,13 @@ header {
 
 .services-title {
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
 .service-name, .service-description {
     text-align: left;
-    padding: 5px 10px;
+    padding: 0 10px;
 }
 
 .service-item-1 {
@@ -274,6 +280,11 @@ header {
     gap: 15px;
     line-height: 1.5;
     padding-bottom: 20px;
+}
+
+.service-name {
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .plan-link {
@@ -286,13 +297,30 @@ header {
     flex-direction: column;
     margin-left: 10px;
     box-sizing: border-box;
-    width: 250px;
-    height: 90px;
+    width: 220px;
+    height: 93px;
 }
 
 .plan-link:hover {
-    background-color: #b7792b;
+    background-color: grey;
 }
+
+
+/* <!-- Marketing --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
