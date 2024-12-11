@@ -48,9 +48,8 @@ table {
 }
 
 /* ==== My CSS ==== */
-
 *{
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /* ---Header--- */
@@ -495,30 +494,26 @@ header {
 /* Form Styles */
     
 .contact-section {
-    margin-top: 80px;
-    clear: both;
-    width: 115%;
-    padding-left: 20px;
+    width: 100%;
     padding-right: 20px;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .contact-title {
     font-weight: bold;
     font-size: 3rem;
-    padding-left: 35px; 
+    padding-top: 75px;
     padding-bottom: 30px;
 }
 
 .contact-subtitle {
     font-weight: bold;
     font-size: 2rem;
-    padding-left: 35px; 
-    margin-bottom: -20px;
 }
 
 .contact-form {
-    padding: 35px;
+    padding-top: 20px;
 }
 
 .contact-form label,
@@ -553,3 +548,51 @@ header {
     box-sizing: border-box;
     padding: 3px 3px 3px 3px;
 }
+
+
+/* <!-- Hours Section --> */
+
+/* General Section Styles */
+.hours-section {
+    padding-top: 30px;
+    font-size: 0.75rem;
+    margin: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hours-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+.hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+/* Header Styles */
+.hours-table thead th {
+    background-color: #ffe6ac;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Body Styles */
+.hours-table tbody td {
+    padding: 10px; /* Add padding for cell content */
+    border: 1px solid #ccc; /* Border between body cells */
+}
+
+
+
+
+
+
+
+
+
