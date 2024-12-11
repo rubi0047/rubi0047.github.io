@@ -493,14 +493,32 @@ header {
 /* <!-- Contact Section --> */
 
 /* Form Styles */
-
+    
 .contact-section {
+    margin-top: 80px;
     clear: both;
-    width: 110%;
+    width: 115%;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-left: 35px; 
+    padding-bottom: 30px;
+}
+
+.contact-subtitle {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 35px; 
+    margin-bottom: -20px;
 }
 
 .contact-form {
-    padding: 30px;
+    padding: 35px;
 }
 
 .contact-form label,
@@ -509,19 +527,20 @@ header {
 }
 
 .contact-form div {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .contact-form .fname input,
 .contact-form .email input {
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 
 .contact-form .message textarea {
     width: 100%;
     padding: 10px;
-    height: 200px;
+    height: 180px;
+    resize: vertical;
 }
 
 .form-submit {
@@ -530,9 +549,7 @@ header {
     text-decoration: none;
     font-weight: lighter;
     font-size: 1rem;
-    padding: 30px;
     flex-direction: column;
-    margin-left: 10px;
     box-sizing: border-box;
     padding: 3px 3px 3px 3px;
 }
