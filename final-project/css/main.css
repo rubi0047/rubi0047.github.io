@@ -551,7 +551,6 @@ header {
 
 /* <!-- Hours Section --> */
 
-/* General Section Styles */
 .hours-section {
     padding-top: 30px;
     width: 100%;
@@ -586,8 +585,20 @@ header {
 }
 
 
+/* ---- Location Section----- */
 
-/* <!-- Location Section --> */
+.location-title {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.location-section .map iframe {
+    height: 400px;
+    border: 0;
+    width: 100%;
+}
 
 
 
