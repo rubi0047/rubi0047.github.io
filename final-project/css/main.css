@@ -294,7 +294,6 @@ header {
 }
 
 /* <!-- Marketing --> */
-
 .service-item-2 {
     background-color: #ffe6ac;
     display: flex;
@@ -396,6 +395,7 @@ header {
     padding-bottom: 45px;
     padding-left: 80px;
     padding-right: 80px;
+    margin-right: -2px;
     background-image: url(../images/vision.jpg);
     background-size: cover;
     background-repeat: no-repeat;
