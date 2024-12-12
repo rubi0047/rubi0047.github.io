@@ -168,10 +168,9 @@ header {
 
 /* <--Welcome Section--> */
 
-.welcome-wrapper {
+.welcome-content {
     background-color: #222;
     color: white;
-    padding: 67px;
     background-image: url(../images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -182,10 +181,7 @@ header {
     background-color: rgba(0, 0, 0, 0.65);
     padding-top: 45px;
     padding-bottom: 50px;
-    margin-left: -100px;
-    margin-right: -67px;
     text-align: left;
-
 }
 
 .welcome-section h1 {
@@ -703,8 +699,8 @@ header {
 
     /* About Us Section */
     .about-wrapper {
-        padding-left: 70px;
-        padding-right: 70px;
+        /* padding-left: 70px;
+        padding-right: 70px; */
         margin: 0 auto;
     }
 
