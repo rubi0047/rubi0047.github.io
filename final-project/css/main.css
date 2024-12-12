@@ -560,7 +560,6 @@ header {
 /* <!-- Hours Section --> */
 
 .hours-section {
-    padding-top: 30px;
     width: 100%;
     margin: 0 auto;
 }
@@ -573,8 +572,7 @@ header {
 
 /* Table Styles */
 .hours-table {
-    width: 100%;
-    /* border-collapse: collapse; -- Need this? */  
+    width: 100%; 
     text-align: left;
 }
 
@@ -598,8 +596,7 @@ header {
 .location-title {
     font-size: 2rem;
     font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .location-section .map iframe {
@@ -622,7 +619,10 @@ header {
     padding-top: 25px;
     padding-bottom: 10px;
     padding-left: 15px;
-   
+}
+
+.footer p a {
+    color: #c78c06;
 }
 
 @media screen and (min-width: 760px) {
@@ -801,6 +801,29 @@ header {
         grid-area: c;
     }
 
+    /* ---Contact Section--- */
 
-    
+    .contact-wrapper {
+        overflow: hidden;
+        row-gap: 20px;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-areas: 
+            "a b"
+            "c c";
+    }
+
+    .contact-info {
+        grid-area: a;
+    }
+
+    .hours-section {
+        grid-area: c;
+    }
+
+    .location-section {
+        grid-area: b;
+    }
 }
