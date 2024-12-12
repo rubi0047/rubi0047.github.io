@@ -740,10 +740,6 @@ header {
         font-size: 1rem;
     }
 
-    /* .about-section .about-text:last-child {
-        margin-bottom: 0;
-    } */
-
     /* ---Service Section--- */
 
     .services-content {
@@ -775,5 +771,33 @@ header {
     .services-content .service-item-5 {
         grid-column: 5/7;
         grid-row: 2/3;
+    }
+
+    /* ---Team Section--- */
+
+    .team-content {
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            "a b"
+            "c d";
+    }
+
+    .team-member-photo-1 {
+        grid-area: a;
+    }
+
+    .team-member-1 {
+        grid-area: b;
+    }
+
+    .team-member-photo-2 {
+        grid-area: d;
+    }
+
+    .team-member-2 {
+        grid-area: c;
     }
 }
