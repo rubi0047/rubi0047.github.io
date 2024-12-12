@@ -241,9 +241,9 @@ header {
 
 /* <!-- Service Section --> */
 
-.service-wrapper {
+.general-wrapper {
     background-color: white;
-    padding: 60px 15px;
+    padding: 40px 15px;
 }
 
 /* <!-- Digital Transformation --> */
@@ -251,6 +251,7 @@ header {
 .services-title {
     font-weight: bold;
     font-size: 3rem;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 
@@ -440,7 +441,7 @@ header {
 .team-title {
     font-size: 3rem;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 5px;
 }
 
 .team-member-1 {
@@ -461,7 +462,6 @@ header {
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 0.9rem;
-    display: inline-block;
     border-bottom: 2px solid #c78c06;
     padding-bottom: 2px;
     width: 95%;
@@ -495,7 +495,6 @@ header {
     
 .contact-section {
     width: 100%;
-    padding-right: 20px;
     flex-direction: column;
     margin: 0 auto;
 }
@@ -555,8 +554,6 @@ header {
 /* General Section Styles */
 .hours-section {
     padding-top: 30px;
-    font-size: 0.75rem;
-    margin: 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -564,13 +561,13 @@ header {
 .hours-title {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Table Styles */
 .hours-table {
     width: 100%;
-    border-collapse: collapse;
+    /* border-collapse: collapse; -- Need this? */  
     text-align: left;
 }
 
@@ -584,11 +581,13 @@ header {
 
 /* Body Styles */
 .hours-table tbody td {
-    padding: 15px; /* Add padding for cell content */
-    border: 1px solid #ccc; /* Border between body cells */
+    padding: 15px;
+    border: 1px solid #ccc;
 }
 
 
+
+/* <!-- Location Section --> */
 
 
 
