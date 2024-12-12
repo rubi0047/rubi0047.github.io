@@ -595,10 +595,10 @@ header {
 }
 
 .location-section .map iframe {
-    height: 400px;
+    height: 450px;
     border: 0;
     width: 100%;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
 }
 
 
