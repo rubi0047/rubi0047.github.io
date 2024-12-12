@@ -167,18 +167,28 @@ header {
 }
 
 /* <--Welcome Section--> */
+.welcome-image {
+    background-image: url(../images/main-banner.jpg);
+}
+
+.welcome-background-2 {
+    background-color: rgba(0, 0, 0, 0.65);
+    max-width: 1250px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .welcome-content {
-    background-color: #222;
     color: white;
-    background-image: url(../images/main-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .welcome-section {
-    background-color: rgba(0, 0, 0, 0.65);
     padding-top: 45px;
     padding-bottom: 50px;
     text-align: left;
@@ -243,8 +253,10 @@ header {
 /* <!-- Service Section --> */
 
 .general-wrapper {
-    background-color: white;
-    padding: 40px 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
 }
 
 /* <!-- Digital Transformation --> */
@@ -691,7 +703,7 @@ header {
 
     /* Welcome-Section */
     .welcome-section {
-        background-color: rgba(0, 0, 0, 0.65);
+        background-color: rgba(0, 0, 0, 0.1);
         width: 100%;
         margin: 0 auto;
         text-align: left;
