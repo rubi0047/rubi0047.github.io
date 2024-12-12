@@ -59,7 +59,7 @@ body {
 
 header {
     background-color: #222;
-    padding: 15px 0;
+    padding-top: 15px;
 }
 
 .nav-bar {
@@ -181,6 +181,7 @@ header {
     margin-left: -100px;
     margin-right: -67px;
     text-align: left;
+
 }
 
 .welcome-section h1 {
@@ -737,4 +738,13 @@ header {
         margin-bottom: 0;
     } */
 
+    /* ---Service Section--- */
+
+    .services-content {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto 1fr;
+    }
+
+    
 }
