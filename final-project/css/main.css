@@ -228,7 +228,7 @@ header {
 }
 
 .about-section {
-    background-color: #b7792b;
+    background-color: #ffe6ac;
 }
 
 .about-section .about-content {
@@ -692,21 +692,49 @@ header {
     .search-button {
         padding: 5px 5px;
     }
+
+
+    /* Welcome-Section */
+    .welcome-section {
+        background-color: rgba(0, 0, 0, 0.65);
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    /* About Us Section */
+    .about-wrapper {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin: 0 auto;
+    }
+
+    .about-section .about-content {
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-section .about-image {
+        width: 50%;
+        height: auto;
+    }
+
+    .about-section .about-title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    .about-section .about-text {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+    /* .about-section .about-text:last-child {
+        margin-bottom: 0;
+    } */
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
