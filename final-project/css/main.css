@@ -543,7 +543,6 @@ header {
 }
 
 .footer-wrapper {
-    align-items: left;
     padding: 20px;
     max-width: 1200px;
 }
@@ -554,19 +553,19 @@ header {
     .nav-bar {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; /* Vertically centers the navbar items */
         padding-bottom: 15px;
     }
 
     .logo-container {
-        width: auto;
+        width: auto; /* Resizes the logo container */
         padding: 0;
     }
 
     .logo {
         position: static;
         margin: 0;
-        max-width: 80px;
+        max-width: 80px; /* Limits the logo size */
     }
 
     .nav {
@@ -608,7 +607,7 @@ header {
 
     .search-form {
         width: auto;
-        display: flex;
+        display: flex; /* Aligns search form elements in a row */
     }
 
     .search-input {
@@ -642,7 +641,7 @@ header {
         display: flex; 
         flex-direction: row;
         align-items: center;
-        gap: 20px;
+        gap: 20px; /* Adds space between content items */
     }
 
     .about-section .about-image {
@@ -664,9 +663,9 @@ header {
 
     /* ---Service Section--- */
     .services-content {
-        display: grid;
+        display: grid; /* Uses grid layout for the services */
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: auto 1fr;
+        grid-template-rows: auto 1fr; /* Defines two rows */
     }
 
     .services-content .service-item-1 {
@@ -713,7 +712,7 @@ header {
     }
 
     .team-member-1 {
-        grid-area: b;
+        grid-area: b; /* Assigns member 1 info to area 'b' */
     }
 
     .team-member-photo-2 {
