@@ -372,7 +372,6 @@ header {
 }
 
 /* <!-- Team Section --> */
-
 .team-title {
     font-size: 3rem;
     font-weight: bold;
@@ -395,7 +394,6 @@ header {
 .team-member-1, .team-member-2 {
     padding-bottom: 35px;
 }
-
 
 .team-member-name {
     font-size: 2rem;
@@ -432,9 +430,7 @@ header {
 
 
 /* <!-- Contact Section --> */
-
 /* Form Styles */
-    
 .contact-section {
     width: 100%;
     flex-direction: column;
@@ -489,9 +485,7 @@ header {
     padding: 3px 3px 3px 3px;
 }
 
-
 /* <!-- Hours Section --> */
-
 .hours-section {
     width: 100%;
     margin: 0 auto;
@@ -503,13 +497,11 @@ header {
     margin: 45px 0 20px;
 }
 
-/* Table Styles */
 .hours-table {
     width: 100%; 
     text-align: left;
 }
 
-/* Header Styles */
 .hours-table thead th {
     background-color: #ffe6ac;
     text-align: center;
@@ -517,15 +509,12 @@ header {
     border: 1px solid #ccc;
 }
 
-/* Body Styles */
 .hours-table tbody td {
     padding: 15px;
     border: 1px solid #ccc;
 }
 
-
 /* ---- Location Section----- */
-
 .location-title {
     font-size: 2rem;
     font-weight: bold;
@@ -536,12 +525,9 @@ header {
     height: 450px;
     border: 0;
     width: 100%;
-    margin-bottom: -20px;
 }
 
-
 /* ---- Footer Section----- */
-
 .footer {
     background-color: #222;
     display: flex;
@@ -606,7 +592,6 @@ header {
         font-size: 16px;
         font-weight: 400;
         color: #c78c06;
-        transition: background-color 0.3s, color 0.3s;
     }
 
     .nav a.current {
@@ -619,7 +604,6 @@ header {
         width: auto;
         margin: 0;
         padding: 0;
-        background-color: transparent;
     }
 
     .search-form {
@@ -636,7 +620,6 @@ header {
     .search-button {
         padding: 5px 5px;
     }
-
 
     /* Welcome-Section */
     .welcome-section {
@@ -680,7 +663,6 @@ header {
     }
 
     /* ---Service Section--- */
-
     .services-content {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -713,7 +695,6 @@ header {
     }
 
     /* ---Team Section--- */
-
     .bob-photo {
         margin-top: 0;
     }
@@ -744,7 +725,6 @@ header {
     }
 
     /* ---Contact Section--- */
-
     .contact-wrapper {
         overflow: hidden;
         row-gap: 20px;
@@ -768,7 +748,6 @@ header {
     .location-section {
         grid-area: b;
     }
-
 
     /* ---Location Section--- */
     .location-title {
