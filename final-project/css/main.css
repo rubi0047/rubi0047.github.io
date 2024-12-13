@@ -265,7 +265,14 @@ header {
     padding: 0 10px;
 }
 
-.service-item-1 {
+.service-name {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+/* <!-- Service Styles --> */
+.service-item-1, .service-item-3, .service-item-2,  .service-item-4, .service-item-5  {
     background-color: #ffe6ac;
     display: flex;
     flex-direction: column;
@@ -273,12 +280,7 @@ header {
     padding-bottom: 20px;
 }
 
-.service-name {
-    font-weight: bold;
-    font-size: 2rem;
-    margin-top: 10px;
-}
-
+/* --- Button Styles --- */
 .plan-link {
     background-color: #222;
     color: white;
@@ -290,19 +292,6 @@ header {
     box-sizing: border-box;
     width: 220px;
     height: 93px;
-}
-
-.plan-link:hover {
-    background-color: grey;
-}
-
-/* <!-- Marketing --> */
-.service-item-2 {
-    background-color: #ffe6ac;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    padding-bottom: 20px;
 }
 
 .plan-link-2 {
@@ -318,28 +307,6 @@ header {
     height: 93px;
 }
 
-.plan-link-2:hover {
-    background-color: grey;
-}
-
-/* <!-- Video Production --> */
-.service-item-3 {
-    background-color: #ffe6ac;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    padding-bottom: 20px;
-}
-
-/* <!-- Web Development --> */
-.service-item-4 {
-    background-color: #ffe6ac;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    padding-bottom: 20px;
-}
-
 .plan-link-3 {
     background-color: #222;
     color: white;
@@ -351,16 +318,6 @@ header {
     box-sizing: border-box;
     width: 200px;
     height: 93px;
-}
-
-/* <!-- Print --> */
-
-.service-item-5 {
-    background-color: #ffe6ac;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    padding-bottom: 20px;
 }
 
 .plan-link-4 {
@@ -376,8 +333,11 @@ header {
     height: 93px;
 }
 
-/* <!-- Vision Section --> */
+.plan-link:hover, .plan-link-2:hover, .plan-link-3:hover, .plan-link-4:hover  {
+    background-color: grey;
+}
 
+/* <!-- Vision Section --> */
 .vision-image {
     background-image: url(../images/vision.jpg);
     background-size: cover;
