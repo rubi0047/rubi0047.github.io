@@ -102,6 +102,7 @@ header {
 }
 
 .nav ul li {
+    font-size: 18px;
     display: block; 
     margin: 40px 0 4px;
 }
@@ -125,12 +126,8 @@ header {
 /* Search bar */
 .search-container {
     width: 100%;
-	margin-top: -15px;
-    margin-bottom: 5px;
+	margin: -15px 0 5px;
     padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #222;
 }
 
@@ -155,9 +152,6 @@ header {
     border: 1px solid #c78c06;
     padding: 0 8px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .search-button i {
@@ -167,11 +161,13 @@ header {
 /* <--Welcome Section--> */
 .welcome-image {
     background-image: url(../images/main-banner.jpg);
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .welcome-background-2 {
     background-color: rgba(0, 0, 0, 0.65);
-    max-width: 1250px;
+    max-width: 1200px;
     overflow: hidden;
     margin: 0 auto;
     background-size: cover;
@@ -181,28 +177,24 @@ header {
 
 .welcome-content {
     color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .welcome-section {
     padding-top: 45px;
     padding-bottom: 50px;
-    text-align: left;
 }
 
 .welcome-section h1 {
-    margin-top: -10px;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     font-weight: bold;
     line-height: 1.5;
+    margin-top: -10px;
     margin-bottom: 30px;
 }
 
 .welcome-title, .welcome-text, .connect-button {
-    margin-left: 45px;
-    margin-right: 53px;
+    margin-left: 20px;
+    margin-right: 15px;
 }
 
 .welcome-text {
@@ -831,5 +823,11 @@ header {
 
     .footer {
         padding-left: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .welcome-section h1 {
+        font-size: 6rem;
     }
 }
