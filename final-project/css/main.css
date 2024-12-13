@@ -398,28 +398,17 @@ header {
 
 /* <!-- Vision Section --> */
 
-.vision-section {
-    background-color: #222;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 45px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-right: -2px;
+.vision-image {
     background-image: url(../images/vision.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden; 
+    padding-bottom: 25px;
 }
 
 .vision-content, .vision-name {
+    color: white;
     line-height: 1.5;
-}
-
-.vision-content {
-    margin-left: -65px;
-    margin-right: -60px;
-    text-align: left;
 }
 
 .vision-title {
@@ -430,9 +419,6 @@ header {
 
 .learn-button {
     margin-top: 45px;
-    margin-left: -65px;
-    margin-right: -65px;
-    text-align: left;
 }
 
 .learn-link {
