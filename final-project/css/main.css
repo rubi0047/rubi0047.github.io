@@ -451,7 +451,13 @@ header {
 .team-title {
     font-size: 3rem;
     font-weight: bold;
-    margin-top: 5px;
+    margin: 40px 0 20px 0;
+}
+
+.team-content img {
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 
 .team-member-1 {
@@ -459,25 +465,24 @@ header {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
-    margin-top: 15px;
 }
 
 .team-member-name {
     font-size: 2rem;
-    margin-bottom: -10px;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 .team-member-title {
-    margin-bottom: 5px;
     font-weight: bold;
     font-size: 0.9rem;
     border-bottom: 2px solid #c78c06;
-    padding-bottom: 2px;
     width: 95%;
+    margin-bottom: 0;
 }
 
-.team-member-title, .team-member-name {
-    font-weight: bold;
+.team-member-bio {
+    margin-top: 15px;
 }
 
 .team-member-title, .team-member-name, .team-member-bio {
@@ -489,11 +494,6 @@ header {
     display: flex;
     flex-direction: column;
     line-height: 1.5;
-    margin-top: 15px;
-}
-
-.team-member-1, .team-member-2 {
-    padding-bottom: 20px;
 }
 
 
@@ -782,7 +782,6 @@ header {
     /* ---Team Section--- */
 
     .team-content {
-        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
