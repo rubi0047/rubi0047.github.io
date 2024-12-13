@@ -93,7 +93,7 @@ header {
     max-width: 100px;
 }
 
-/* Navigation styles */
+/* Navigation section */
 .nav {
     width: 100%;
     text-align: center;
@@ -103,13 +103,11 @@ header {
 
 .nav ul li {
     display: block; 
-    margin: 40px 0;
-	margin-bottom: 4px;
+    margin: 40px 0 4px;
 }
 
 .nav a {
     text-decoration: none;
-    font-size: 18px; /* Matches the font size in the example */
     font-weight: 400;
     color: #c78c06;
 	position: relative;
@@ -453,6 +451,11 @@ header {
     line-height: 1.5;
 }
 
+.team-member-1, .team-member-2 {
+    padding-bottom: 35px;
+}
+
+
 .team-member-name {
     font-size: 2rem;
     font-weight: bold;
@@ -473,6 +476,10 @@ header {
 
 .team-member-title, .team-member-name, .team-member-bio {
     margin-left: 15px;
+}
+
+.bob-photo {
+    margin-top: 15px;
 }
 
 .team-member-2 {
@@ -764,6 +771,10 @@ header {
     }
 
     /* ---Team Section--- */
+
+    .bob-photo {
+        margin-top: 0;
+    }
 
     .team-content {
         display: grid;
